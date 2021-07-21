@@ -1,0 +1,135 @@
+@media only screen and (orientation: landscape) {}
+
+nav {
+    float: left;
+    padding: 20px;
+    width: 30%;
+    height: 70%;
+
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 28%;
+
+
+}
+
+
+aside {
+    float: left;
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+
+}
+cite {
+    color: white;
+}
+a {
+    color: rgb(255, 0, 170);
+    text-align: left;
+}
+
+a, p, h1 {
+    font-size: 180%;
+}
+
+    table {
+        overflow-x: auto;
+    }
+
+
+    label {
+        color: white;
+    }
+    body {
+        background-size: 100%;
+        background-image: url("../images/background.jpg");
+        background-repeat: no-repeat;
+    }
+    table {
+        text-align: center;
+    }
+
+    table, td {
+
+        border-collapse: collapse;
+        text-align: left;
+        padding: 30px;
+    }
+
+    h1, p {
+        text-align: left;
+        color: white;
+    }
+form, label, input {
+    font-size: 100%;
+    text-align: left;
+}
+
+img.fifty {
+    height: 50%;
+    width: 50%;
+}
+
+img.twenty {
+    height: 22%;
+    width: 22%;
+}
+img.sixty {
+    height: 40%;
+    width: 40%;
+}
+    
+@media only screen and (max-width: 800px) {
+
+    body {
+        background-size: 100%;
+        background-image: url("../images/background.jpg");
+        background-repeat: no-repeat;
+    }
+img{
+    height: 50%;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: 100%;
+        background-image: url("../images/background.jpg");
+        background-repeat: repeat;
+    }
+    input {
+        width:10%;
+
+    }
+    label, a, p {
+        font-size: 30%;
+    }
+img{
+    height: 200%;
+}
+
+nav {
+    float: left;
+    width: 10%;
+}
+
+article {
+    float: left;
+    width: 50%;
+
+}
+
+aside {
+    float: left;
+    width: 60%;
+}
+img.sixty {
+    height: 40%;
+    width: 40%;
+}
+}
