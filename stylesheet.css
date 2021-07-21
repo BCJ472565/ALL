@@ -1,0 +1,19 @@
+@media only screen and (orientation: landscape) {
+    table {
+        overflow-x: auto;
+    
+    }
+    
+    .grid-container1 {
+        display: grid;
+        grid-template-columns: 32.33% 32.33% 32.34%;
+        padding: 0.33px;
+    }
+    .grid-container1 > div {
+        font-size: 25px
+        
+    }
+}
+h1 {
+    font-size: 130%;
+}
