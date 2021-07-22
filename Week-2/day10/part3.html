@@ -13,9 +13,14 @@
 <img src="../websitelogoo.png" alt="my logo" class="twenty"><br>
 <a href="sitedesign.html">Design sheet</a>
 </nav>
-<aside><img class="fifty" src="images/index.png"  alt="jojos quiz logo"><br>
-<cite>Hirohiko Araki</cite><br></aside>
-<aside>
+
+
+<aside><img class="fifty" src="images/index.png"  alt="jojos quiz logo"><br>   
+        <!--first new thing added to the code-->      
+    <!--included a details tag to give more information on the cite tag-->
+    <details><summary><cite>Hirohiko Araki</cite></summary> <h1>The creator of JoJo's Bizarre Adventure</h1></details></aside>
+
+
     <table style="font-size: 60%;">
         <tr>
             <td>
@@ -71,7 +76,7 @@ method="post" enctype="text/plain">
                 <input type="checkbox" id="brando2" name="waj" value="brando2">
                 <label for="brando2">Dio Brando</label><br>
                 <input type="checkbox" id="joseph" name="waj" value="joseph">
-                <label for="joseph">Joseph Joestar</label><br>
+                <label for="joseph">Joseph Cucumber Joestar</label><br>
                 <input type="checkbox" id="josuke" name="waj" value="josuke">
                 <label for="josuke">Josuke Higashikata</label><br>
             </td>
@@ -84,6 +89,29 @@ method="post" enctype="text/plain">
                 
             </td>
         </tr>
+        <tr>
+            <td>
+                <!--this question has an img and text for the name of the question-->
+                <label for="pcode">Postal code</label><br><br>
+                <input type="text" id="pcode" name="pcode" value="v3t 2l5" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]">
+</td>
+<td>
+<label for="email">Email address</label><br><br>
+<input type="email" id="email" name="email" value="cake@gmail.com">
+</td>
+<tr>
+<td>
+
+                <label for="phone">Phone</label><br><br>
+                <input type="tel" id="phone" name="phone" value="9024416003" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+            </td>
+            <td>
+
+                <label for="name">First and last name</label><br><br>
+                <input type="text" id="name" name="name" value="Cucumber Joe" pattern="[A-Za-z]+ [A-Za-z]+">
+            </td>
+
+<tr>
         <tr>
             <td>
                 <input onclick="window.location.href='index.html'" type="submit" value="Send">

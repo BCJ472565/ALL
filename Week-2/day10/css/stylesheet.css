@@ -1,4 +1,4 @@
-@media only screen and (orientation: landscape) {
+
 
 nav {
     float: left;
@@ -19,7 +19,7 @@ article {
 
 aside {
     float: left;
-    padding: 20px;
+    padding: 0px;
     width: 30%;
     height: 30%;
 
@@ -30,6 +30,15 @@ cite {
 a {
     color: rgb(255, 0, 170);
     text-align: left;
+}
+
+details {
+    color: white;
+}
+
+p:hover, h1:hover, cite:hover, label:hover, a:hover {
+    background-color: white;
+    color: black;
 }
 
 a, p, h1 {
@@ -69,6 +78,8 @@ form, label, input {
     text-align: left;
 }
 
+
+
 img.fifty {
     height: 50%;
 }
@@ -78,9 +89,16 @@ img.twenty {
     width: 22%;
 }
 img.sixty {
-    height: 40%;
-    width: 40%;
+    height: 100%;
+    width: 100%;
 }
+@media screen and (max-width: 1510px) {
+
+
+
+}
+    
+
 
 @media screen and (max-width: 1319px) {
     img.fifty {
@@ -93,6 +111,9 @@ img.sixty {
     aside {
         padding: 12px;
     }
-}
-
+    video.video {
+        width: 384;
+        height: 216;
+    }
+    
 }
